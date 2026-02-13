@@ -1,0 +1,13 @@
+OS VERSION="22.04.5 LTS (Jammy Jellyfish)"
+Users on the OS with bash shell installed = root:x:0:0:root:/root:/bin/bash
+ametsee:x:1000:1000:ametsee:/home/ametsee:/bin/bash
+olena:x:1002:1002:olena,1,637867131,1112:/home/olena:/bin/bash
+user1:x:1003:1003::/home/user1:/bin/bash
+user2:x:1004:1004:,,,:/home/user2:/bin/bash 
+ Open ports: Netid State  Recv-Q Send-Q    Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0      10.0.2.15%enp0s3:68        0.0.0.0:*          
+tcp   LISTEN 0      80            127.0.0.1:3306      0.0.0.0:*          
+tcp   LISTEN 0      128             0.0.0.0:22        0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      128                [::]:22           [::]:*          
